@@ -1,0 +1,11 @@
+.carousel {
+    width: 100%;
+   /* overflow: scroll; Es una especifica: si recortar contenido, dibujar barras de desplazamiento*/
+    padding: 30px;
+    position: relative;
+}
+.carousel__container {
+    white-space: nowrap;
+    margin: 25px 0px;
+    padding-bottom: 10px;
+}

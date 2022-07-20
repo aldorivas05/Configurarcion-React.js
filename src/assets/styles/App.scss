@@ -1,5 +1,13 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
+
 body {
-    margin: 0;
-    background-color: rebeccapurple;
-    color: white;
+    margin: 0px;
+    font-family: theme-font;
+    height: 100%;
+    background: linear-gradient($name-color1, $name-color2);
+}
+* {
+    box-sizing: border-box;
 }
